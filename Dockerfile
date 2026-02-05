@@ -10,6 +10,7 @@ RUN chown -R nginx:root /etc/nginx ; \
     chmod 775 /etc/nginx ; \
     chmod 664 /etc/nginx/* ; \
     chmod 775 /etc/nginx/conf.d ; \
+    chmod 775 /etc/nginx/modules ; \
     chmod 664 /etc/nginx/conf.d/* ; \
     chmod 755 /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
 
